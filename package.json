@@ -1,0 +1,36 @@
+{
+  "name": "cakesbot",
+  "version": "1.0.0",
+  "description": "Cakes Bot om nom",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "lint": "eslint **/*.js",
+    "format": "prettier-eslint --write \"**/*.js\""
+  },
+  "dependencies": {
+    "config": "^3.2.1",
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "sequelize": "^6.0.0",
+    "sqlite3": "^4.0.8",
+    "tmi.js": "^1.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "prettier-eslint-cli": "^5.0.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/mikesol314/CakesBot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "twitch",
+    "chatbots",
+    "irc"
+  ]
+}
