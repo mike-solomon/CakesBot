@@ -9,7 +9,7 @@
     "format": "prettier-eslint --write \"**/*.js\""
   },
   "dependencies": {
-    "config": "^3.2.1",
+    "config": "^3.3.8",
     "express": "^4.16.4",
     "moment": "^2.24.0",
     "sequelize": "^6.0.0",
